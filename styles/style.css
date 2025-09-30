@@ -1,0 +1,143 @@
+
+.navber{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0px 140px; */
+    background-color: #FFFFFF;
+}
+.nav-image{
+    margin-top: 35px;
+    width: 65px;
+    height: 45px;
+}
+.nav-title{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.navber-container{
+    display: flex;
+    /* margin-left: 50px; */
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+   
+}
+.list, .list1, .list2,.list3 {
+
+     margin-left: 30px;
+}
+.list{
+    color: orange;
+}
+.list1{
+    color: Sky Blue;
+}
+.list2{
+    color:#05D4DF;
+}
+.list3{
+    color: #5D58EF;
+} 
+.btn-primary{
+     background-color: Orange;
+     font-size: 20px;
+     border-radius: 10px;
+     padding: 10px 25px;
+     border: none;
+}
+
+
+.hero-kids{
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 20px 80px;
+    gap: 120px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.kids-title{
+    font-size:56px ;
+    font-weight: 800;
+    margin-right: 50px;
+}
+.kids-dis{
+    font-size: 20px;
+    font-weight: 400px;
+}
+.kids-img{
+    margin-left: 110px;
+    justify-content: end;
+}
+.kids-color{
+    color: orange;
+}
+.color{
+    color: skyblue;
+}
+.kids-btn{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.Curriculum{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 46px;
+    font-weight: bold;
+}
+.card-container{
+    max-width: 1300px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.card, .card1, .card2{
+    width: 300px;
+    height: 350px;
+    box-shadow: 0px 4px 5px 0px;
+    gap: 30px;
+    border-radius: 16px;
+    background-color:red;
+}
+.card{
+    text-align: center;
+    justify-content: center;
+    padding: 52px 25px;
+}
+.card1{
+     text-align: center;
+    justify-content: center;
+    padding: 52px 25px;
+}
+.card2{
+     text-align: center;
+    justify-content: center;
+    padding: 52px 25px;
+}
+.icon{
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.icon1, .icon2{
+    width: 50px;
+    background-color: orange;
+    border: 1px solid orange;
+    /* padding: 10px; */
+    border-radius: 50%;
+}
+.Stories{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #000000;
+    margin: 50px 0px;
+}
