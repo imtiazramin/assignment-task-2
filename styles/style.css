@@ -1,14 +1,31 @@
 
+#grad{
+    
+background-image: url("../assets/bg.png"), linear-gradient(360deg , rgb(245, 213, 158) , white);
+   /* background-color:linear-gradient(to bottom, #FEA301 , white);  */
+}
+hr{
+    display: none;
+     /* color: #833636; */
+}
+#menu-image{
+    display: none;
+}
+
 .navber{
+    
     display: flex;
     gap: 20px;
     justify-content: space-around;
     align-items: center;
     /* margin: 0px 140px; */
     background-color: #FFFFFF;
+  
+
+
 }
 .nav-image{
-    margin-top: 35px;
+    margin-top: 15px;
     width: 65px;
     height: 45px;
 }
@@ -102,7 +119,7 @@
 .card, .card1, .card2{
     width: 300px;
     height: 350px;
-    box-shadow: 0px 4px 5px 0px;
+    box-shadow: 0px 1px 1px 0px white;
     gap: 30px;
     border-radius: 16px;
     background-color:red;
@@ -111,16 +128,33 @@
     text-align: center;
     justify-content: center;
     padding: 52px 25px;
+    background-image: linear-gradient(to top, white , #DEF5FF);
 }
 .card1{
      text-align: center;
     justify-content: center;
     padding: 52px 25px;
+  background-image: linear-gradient(to top, white, #FFF4DC);
 }
+
 .card2{
      text-align: center;
     justify-content: center;
     padding: 52px 25px;
+     background-image: linear-gradient(to top, white, #F2E8FF);
+}
+.card-btn{
+    color: #64C8FF;
+    border: none;
+    /* background-color: white; */
+}
+.card-btn1{
+    color: #F0AA00;
+     border: none;
+}
+.card-btn2{
+    color: #8700FF;
+     border: none;
 }
 .icon{
     text-align: center;
@@ -140,4 +174,269 @@
     font-weight: bold;
     color: #000000;
     margin: 50px 0px;
+}
+
+/* box style */
+
+.box {
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    
+}
+
+.box-con{
+   
+    margin-right: 80px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    border-radius: 10px;
+   box-shadow: none;
+}
+ .box2 {
+    width: 542px; ;
+    height: 630px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px 2px white;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+    position: relative;
+    border: none;
+}
+
+.box-img2{
+    width: 540px;
+    height: 357px; 
+    border-radius:16px 16px 0px 0px;
+    position: relative;
+}
+
+.box1{
+    width: 290px;
+    height: 300px;
+     box-shadow: 2px 2px 2px 2px white;
+     border-radius: 16px;
+       background-color: #FFFFFF;
+}
+.box3{
+    width: 290px;
+    height: 300px;
+      box-shadow: 2px 2px 2px 2px white;
+       border-radius: 16px;
+         background-color: #FFFFFF;
+}
+.box4{
+    width: 290px;
+    height: 310px;
+     box-shadow: 2px 2px 2px 2px white;
+      border-radius: 16px;
+        background-color: #FFFFFF;
+}
+.box5{
+    width: 290px;
+    height: 310px;
+     box-shadow: 2px 2px 2px 2px white;
+      border-radius: 16px;
+        background-color: #FFFFFF;
+}
+
+#btn{
+    padding: 19px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: -250px;
+    background-color: #3CD8E8;
+}
+.box-title{
+    padding: 10px 37px;
+}
+.box-dis{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.box-img{
+    position: relative;
+    border-radius: 10px;
+    border-radius:16px 16px 0px 0px;
+}
+.last-btn{
+    max-width: 1300px;
+    margin:60px auto;
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 8px;
+    margin-left: 880px;
+}
+
+.footer1{
+    /* display: flex; */
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+      
+}
+.footer-img{
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+    /* margin-left: 300px; */
+}
+.last{
+    max-width: 1300px;
+    /* display: flex; */
+    gap: 250px;
+    justify-content: space-around;
+    padding: 100px 1px 70px 0px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+}
+.ul-li{
+    list-style: none;
+   
+    
+}
+footer{
+    margin: 0px;
+    background-color: #01ACFD;
+}
+.footer-dis{
+    margin-left: -120px;
+}
+.low{
+    margin-bottom: 20px;
+}
+.box6, .box7{
+    display: none;
+     width: 290px;
+    height: 310px;
+     box-shadow: 2px 2px 2px 2px white;
+      border-radius: 16px;
+        background-color: #FFFFFF;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .nav-image{
+     margin-left: -20px;
+     
+    }
+    #menu-image{
+        justify-content: end;
+        display: inline;
+        align-items: center;
+        margin-left: 280px;
+        margin-top: -35px;
+        margin-bottom: 10px;
+    }
+    hr{
+    display: block;
+   
+}
+    .nav-title{
+        display: none;
+    }
+    .navber-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-list{
+        display: none;
+    }
+    .btn-primary{
+        display: none;
+    }
+    .hero-kids {
+        width: 357px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+     
+    }
+    .kids-title{
+        width: 357px;
+        padding-left: 20px 20px 20px 20px;
+        /* margin: 10px auto; */
+        margin-left: -80px;
+        font-size: 36px;
+        margin-top: -20px;
+    }
+    .kids-dis{
+        width: 357px;
+        padding-left: 20px;
+        /* margin: 10px auto; */
+        margin-left: -100px;
+    }
+    .kids-img{
+        width: 357px;
+        margin-left: -80px;
+        margin-top: -22px;
+       
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        margin-left: 10px;
+    }
+    .box2{
+        display: none;
+    }
+    /* .box6, .box7{ 
+        display:inline-flex;
+        flex-direction: column;
+        grid-template-columns: repeat(2,1fr);
+    } */
+    .box1, .box3, .box4, .box5 {
+       width: 170px;
+       height: 228px;
+    }
+     .box-con{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 4px;
+     }
+     .box-img{
+        width: 170px;
+        height: 95px;
+     }
+     #btn{
+        margin: 5px;
+        margin-top: -50px;
+        padding: 4px;
+     }
+     .box-title{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 10px;
+        padding: 10px;
+     }
+    .last{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+    .footer-dis{
+        margin-left: -150px;
+    }
+    .edu{
+        margin-left: -100px;
+    }
+   .last-btn{
+    max-width: 576px;
+    margin-left: 140px;
+    /* margin: 60px auto; */
+   }
+   .footer-img{
+    margin-left: 10px;
+   }
+   .image{
+    margin-left: 20px;
+   }
+  
 }
